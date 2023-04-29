@@ -48,37 +48,36 @@ body {
 
 /* Логотип */
 .logo-first-part {
-font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--main-color);
-    text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+  text-decoration: none;
 }
 
 .logo {
-font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
 }
 
 /* Навігація */
 .hero {
-    background-color: var(--main-color);
+  background-color: var(--main-color);
 }
-
 
 .nav-link {
   font-style: normal;
@@ -156,7 +155,7 @@ font-family: "Raleway", sans-serif;
 
 /* Чим ми займаємось */
 .our-workers {
-    background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .projects-title,
@@ -172,35 +171,35 @@ font-family: "Raleway", sans-serif;
 }
 
 .worker-item {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .main-footer {
-    background-color: var(--main-color);
+  background-color: var(--main-color);
 }
 .logo-footer {
-    font-family: 'Raleway', sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4D5AE5;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 .logo-first-part-footer {
-font-family: 'Raleway', ans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #F4F4FD;
+  font-family: "Raleway", ans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 .text-footer {
   font-style: normal;
