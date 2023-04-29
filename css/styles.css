@@ -28,14 +28,17 @@ body {
   cursor: pointer;
 }
 
-
-
-
-
-.nav-link,
-.mail-adress,
-.tel-number {
+/* Дефолтні значення чкі скинули */
+.link {
   text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.contacts {
+  font-style: normal;
 }
 
 .nav-link:hover,
@@ -76,9 +79,7 @@ font-family: "Raleway", sans-serif;
     background-color: var(--main-color);
 }
 
-ul {
-    list-style: none;
-}
+
 .nav-link {
   font-style: normal;
   font-weight: 500;
