@@ -12,12 +12,14 @@ color: var(--primary-text-color);
 :root {
   --main-font-family: "Roboto", sans-serif;
   --main-color: #2e2f42;
+  --accent-color: #4d5ae5;
 }
 
 /* Встановлюємо основний тип тексту в змінній */
 body {
   font-family: var(--main-font-family);
   color: #434455;
+  background-color: #ffffff;
 }
 
 /* Курсор для кнопок долонька */
@@ -26,15 +28,13 @@ body {
   cursor: pointer;
 }
 
-/* Прибераємо встроєні властивості які нам не потрібні  */
-ul {
-  list-style: none;
-}
+
+
+
 
 .nav-link,
 .mail-adress,
-.tel-number,
-.logo {
+.tel-number {
   text-decoration: none;
 }
 
@@ -45,32 +45,40 @@ ul {
 
 /* Логотип */
 .logo-first-part {
-  font-family: "Raleway" sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+    text-decoration: none;
 }
 
 .logo {
-  font-family: "Raleway" sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--main-color);
+font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--accent-color);
 }
 
 /* Навігація */
+.hero {
+    background-color: var(--main-color);
+}
+
+ul {
+    list-style: none;
+}
 .nav-link {
   font-style: normal;
   font-weight: 500;
@@ -104,7 +112,6 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  background-color: var(--main-color);
 }
 
 /* Botton */
@@ -147,6 +154,10 @@ ul {
 }
 
 /* Чим ми займаємось */
+.our-workers {
+    background-color: #F4F4FD;
+}
+
 .projects-title,
 .worker-main-title {
   font-style: normal;
@@ -159,6 +170,37 @@ ul {
   color: var(--main-color);
 }
 
+.worker-item {
+    background-color: #FFFFFF;
+}
+
+.main-footer {
+    background-color: var(--main-color);
+}
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+}
+.logo-first-part-footer {
+font-family: 'Raleway', ans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
 .text-footer {
   font-style: normal;
   font-weight: 400;
