@@ -13,12 +13,14 @@ color: var(--primary-text-color);
   --main-font-family: "Roboto", sans-serif;
   --main-color: #2e2f42;
   --accent-color: #4d5ae5;
+  --text-color: #434455;
+  --hover-color: #404bbf;
 }
 
 /* Встановлюємо основний тип тексту в змінній */
 body {
   font-family: var(--main-font-family);
-  color: #434455;
+  color: var(--text-color);
   background-color: #ffffff;
 }
 
@@ -43,7 +45,7 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: var(--hover-color);
 }
 
 /* Логотип */
@@ -95,12 +97,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 
 .mail-adress:hover,
 .mail-adress:focus {
-  color: #404bbf;
+  color: var(--hover-color);
 }
 
 /* Головний заголовок */
@@ -125,13 +127,13 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #4d5ae5;
+  background-color: var(--accent-color);
 }
 
 .btn-order:hover,
 .btn-order:focus {
   color: #ffffff;
-  background-color: #404bbf;
+  background-color: var(--hover-color);
 }
 
 /* Інформаційний блок */
@@ -187,7 +189,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--accent-color);
 }
 .logo-first-part-footer {
   font-family: "Raleway", ans-serif;
@@ -224,7 +226,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--accent-color);
   background: #f4f4fd;
 }
 
