@@ -15,13 +15,15 @@ color: var(--primary-text-color);
   --accent-color: #4d5ae5;
   --text-color: #434455;
   --hover-color: #404bbf;
+  --main-white-color: #ffffff;
+  --pale-accent-color: #f4f4fd;
 }
 
 /* Встановлюємо основний тип тексту в змінній */
 body {
   font-family: var(--main-font-family);
   color: var(--text-color);
-  background-color: #ffffff;
+  background-color: var(--main-white-color);
 }
 
 /* Курсор для кнопок долонька */
@@ -30,7 +32,7 @@ body {
   cursor: pointer;
 }
 
-/* Дефолтні значення чкі скинули */
+/* Дефолтні значення які скинули */
 .link {
   text-decoration: none;
 }
@@ -41,11 +43,6 @@ body {
 
 .contacts {
   font-style: normal;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: var(--hover-color);
 }
 
 /* Логотип */
@@ -90,8 +87,7 @@ body {
   color: var(--main-color);
 }
 
-.mail-adress,
-.tel-number {
+.contact-adress {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -100,8 +96,13 @@ body {
   color: var(--text-color);
 }
 
-.mail-adress:hover,
-.mail-adress:focus {
+.contact-adress:hover,
+.contact-adress:focus {
+  color: var(--hover-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
   color: var(--hover-color);
 }
 
@@ -113,7 +114,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--main-white-color);
 }
 
 /* Botton */
@@ -126,13 +127,13 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--main-white-color);
   background-color: var(--accent-color);
 }
 
 .btn-order:hover,
 .btn-order:focus {
-  color: #ffffff;
+  color: var(--main-white-color);
   background-color: var(--hover-color);
 }
 
@@ -158,7 +159,7 @@ body {
 
 /* Чим ми займаємось */
 .our-workers {
-  background-color: #f4f4fd;
+  background-color: var(--pale-accent-color);
 }
 
 .projects-title,
@@ -174,9 +175,10 @@ body {
 }
 
 .worker-item {
-  background-color: #ffffff;
+  background-color: var(--main-white-color);
 }
 
+/* Футер */
 .main-footer {
   background-color: var(--main-color);
 }
@@ -193,10 +195,32 @@ body {
   color: var(--accent-color);
 }
 
+.logo-first-part-footer {
+  font-family: "Raleway", ans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--pale-accent-color);
+}
+
+.text-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--pale-accent-color);
+  background: var(--main-color);
+}
 
 /* Portfolio */
 
-/* buttons */
+/* Кнопки*/
 .btn-portfolio {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -208,52 +232,30 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--accent-color);
-  background: #f4f4fd;
+  background: var(--pale-accent-color);
 }
 
 .btn-portfolio:hover,
 .btn-portfolio:focus {
-  color: #ffffff;
-  background: #404bbf;
+  color: var(--main-white-color);
+  background: var(--hover-color);
 }
 
+/* Заголовки та текст під картинками */
 .pictures-title {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--main-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 
 .pictures-text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
-}
-
-.logo-first-part-footer {
-  font-family: "Raleway", ans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #f4f4fd;
-}
-
-.text-footer {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
-  background: var(--main-color);
+  color: var(--text-color);
 }
